@@ -1,12 +1,11 @@
 # t2-hw-test-rig
-# tessel-v2-hardware
 
 KiCAD design files for test rigs for Technical Machine's Tessel 2
 
 To download [TM's KiCAD library](https://github.com/technicalmachine/tm-kicad-library), containing all the schematic symbols and footprints, run this command:
 
 ```
-git submodule update --init 
+git submodule update --init
 ```
 
 ## Notes
