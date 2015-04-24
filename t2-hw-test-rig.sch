@@ -247,7 +247,7 @@ $EndSheet
 $Sheet
 S 7500 3300 1200 1200
 U 55375CFB
-F0 "CURRENT" 60
+F0 "ANALOG" 60
 F1 "current.sch" 60
 $EndSheet
 Text GLabel 5300 6700 2    60   Output ~ 0
