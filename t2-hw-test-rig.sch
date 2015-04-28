@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title "Tessel 2 Test Rig"
 Date "Thu 16 Apr 2015"
 Rev ""
@@ -233,21 +233,21 @@ F 3 "" H 3300 6600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 7500 4900 1200 1200
+S 7500 5400 1200 1200
 U 55373628
 F0 "USB" 60
 F1 "USB.sch" 60
 $EndSheet
 $Sheet
-S 7500 6500 1200 1200
+S 9100 5400 1200 1200
 U 5537389A
 F0 "SAM" 60
 F1 "SAM.sch" 60
 $EndSheet
 $Sheet
-S 7500 3300 1200 1200
+S 7500 3800 1200 1200
 U 55375CFB
-F0 "ANALOG" 60
+F0 "CURRENT" 60
 F1 "current.sch" 60
 $EndSheet
 Text GLabel 5300 6700 2    60   Output ~ 0
@@ -414,4 +414,10 @@ Text Notes 4100 6400 0    60   ~ 0
 2.5V REFERENCE
 Text Notes 5000 4600 0    60   ~ 0
 3.3V LDO
+$Sheet
+S 9100 3800 1200 1200
+U 55403272
+F0 "OP AMPS" 60
+F1 "opamps.sch" 60
+$EndSheet
 $EndSCHEMATC
