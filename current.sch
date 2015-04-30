@@ -87,7 +87,9 @@ Wire Wire Line
 Wire Wire Line
 	10600 3000 11500 3000
 Wire Wire Line
-	10600 2800 10600 3000
+	10600 2700 10600 2900
+Wire Wire Line
+	10600 2900 10600 3000
 Wire Wire Line
 	10600 3000 10600 3100
 $Comp
@@ -235,7 +237,9 @@ Wire Wire Line
 Wire Wire Line
 	5300 3000 6200 3000
 Wire Wire Line
-	5300 2800 5300 3000
+	5300 2700 5300 2900
+Wire Wire Line
+	5300 2900 5300 3000
 Wire Wire Line
 	5300 3000 5300 3100
 $Comp
@@ -367,7 +371,9 @@ Wire Wire Line
 Wire Wire Line
 	6700 1600 6900 1600
 Wire Wire Line
-	6900 1600 7700 1600
+	6900 1600 7300 1600
+Wire Wire Line
+	7300 1600 7700 1600
 Connection ~ 6900 1600
 Connection ~ 5300 3800
 Wire Wire Line
@@ -467,7 +473,9 @@ Wire Wire Line
 Wire Wire Line
 	5300 7000 6200 7000
 Wire Wire Line
-	5300 6800 5300 7000
+	5300 6700 5300 6900
+Wire Wire Line
+	5300 6900 5300 7000
 Wire Wire Line
 	5300 7000 5300 7100
 $Comp
@@ -615,7 +623,9 @@ Wire Wire Line
 Wire Wire Line
 	10600 7000 11500 7000
 Wire Wire Line
-	10600 6800 10600 7000
+	10600 6700 10600 6900
+Wire Wire Line
+	10600 6900 10600 7000
 Wire Wire Line
 	10600 7000 10600 7100
 $Comp
@@ -737,13 +747,13 @@ Text GLabel 4300 7600 0    60   Input ~ 0
 PA33_SHORT
 Text GLabel 9600 7600 0    60   Input ~ 0
 PB33_SHORT
-Text GLabel 5300 2800 1    60   Input ~ 0
+Text GLabel 5300 2700 1    60   Input ~ 0
 UUT_5VUSB0
-Text GLabel 10600 2800 1    60   Input ~ 0
+Text GLabel 10600 2700 1    60   Input ~ 0
 UUT_5VUSB1
-Text GLabel 5300 6800 1    60   Input ~ 0
+Text GLabel 5300 6700 1    60   Input ~ 0
 UUT_33PA
-Text GLabel 10600 6800 1    60   Input ~ 0
+Text GLabel 10600 6700 1    60   Input ~ 0
 UUT_33PB
 Text Label 6100 3800 2    60   ~ 0
 5VUSB0_RS-
@@ -870,7 +880,9 @@ Wire Wire Line
 Wire Wire Line
 	12000 1600 12200 1600
 Wire Wire Line
-	12200 1600 13000 1600
+	12200 1600 12600 1600
+Wire Wire Line
+	12600 1600 13000 1600
 Connection ~ 12200 1600
 Wire Wire Line
 	12600 1600 12600 1700
@@ -981,7 +993,9 @@ Wire Wire Line
 Wire Wire Line
 	12000 5600 12200 5600
 Wire Wire Line
-	12200 5600 13000 5600
+	12200 5600 12600 5600
+Wire Wire Line
+	12600 5600 13000 5600
 Connection ~ 12200 5600
 Wire Wire Line
 	12600 5600 12600 5700
@@ -1092,7 +1106,9 @@ Wire Wire Line
 Wire Wire Line
 	6700 5600 6900 5600
 Wire Wire Line
-	6900 5600 7700 5600
+	6900 5600 7300 5600
+Wire Wire Line
+	7300 5600 7700 5600
 Connection ~ 6900 5600
 Wire Wire Line
 	7300 5600 7300 5700
@@ -1121,4 +1137,68 @@ $EndComp
 Wire Wire Line
 	7300 6400 7300 6300
 Connection ~ 7300 5600
+$Comp
+L TP TP?
+U 1 1 5541BEB7
+P 5000 2700
+F 0 "TP?" H 5000 2750 60  0000 C CNN
+F 1 "TP" H 5000 2650 60  0001 C CNN
+F 2 "" H 5000 2700 60  0000 C CNN
+F 3 "" H 5000 2700 60  0000 C CNN
+	1    5000 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 2700 5000 2900
+Wire Wire Line
+	5000 2900 5300 2900
+Connection ~ 5300 2900
+$Comp
+L TP TP?
+U 1 1 5541C9E9
+P 10300 2700
+F 0 "TP?" H 10300 2750 60  0000 C CNN
+F 1 "TP" H 10300 2650 60  0001 C CNN
+F 2 "" H 10300 2700 60  0000 C CNN
+F 3 "" H 10300 2700 60  0000 C CNN
+	1    10300 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10300 2700 10300 2900
+Wire Wire Line
+	10300 2900 10600 2900
+Connection ~ 10600 2900
+$Comp
+L TP TP?
+U 1 1 5541D870
+P 10300 6700
+F 0 "TP?" H 10300 6750 60  0000 C CNN
+F 1 "TP" H 10300 6650 60  0001 C CNN
+F 2 "" H 10300 6700 60  0000 C CNN
+F 3 "" H 10300 6700 60  0000 C CNN
+	1    10300 6700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10300 6700 10300 6900
+Wire Wire Line
+	10300 6900 10600 6900
+Connection ~ 10600 6900
+$Comp
+L TP TP?
+U 1 1 5541E302
+P 5000 6700
+F 0 "TP?" H 5000 6750 60  0000 C CNN
+F 1 "TP" H 5000 6650 60  0001 C CNN
+F 2 "" H 5000 6700 60  0000 C CNN
+F 3 "" H 5000 6700 60  0000 C CNN
+	1    5000 6700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 6700 5000 6900
+Wire Wire Line
+	5000 6900 5300 6900
+Connection ~ 5300 6900
 $EndSCHEMATC
