@@ -36,12 +36,12 @@ EELAYER END
 $Descr B 17000 11000
 encoding utf-8
 Sheet 2 5
-Title "Tessel 2"
-Date "Thu 12 Mar 2015"
+Title "Tessel 2 Test Rig"
+Date "Thu 30 Apr 2015"
 Rev "TM-T2-04"
-Comp "Technical Machine"
-Comment1 "Copyright 2015 Technical Machine Inc."
-Comment2 "CC-BY-SA or Solderpad, at your option."
+Comp "Technical Machine, Inc."
+Comment1 "Copyright 2015"
+Comment2 "CC-BY-SA and/or Solderpad at your option "
 Comment3 ""
 Comment4 ""
 $EndDescr

@@ -37,7 +37,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 5
 Title "Tessel 2 Test Rig"
-Date "Thu 16 Apr 2015"
+Date "Thu 30 Apr 2015"
 Rev ""
 Comp "Technical Machine, Inc."
 Comment1 "Copyright 2015"
