@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:t2-hw-test-rig-rescue
+LIBS:tm-kicad-lib
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:tm-kicad-lib
 LIBS:t2-hw-test-rig-cache
 EELAYER 25 0
 EELAYER END

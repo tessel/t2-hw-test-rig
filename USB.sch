@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:t2-hw-test-rig-rescue
+LIBS:tm-kicad-lib
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:tm-kicad-lib
 LIBS:t2-hw-test-rig-cache
 EELAYER 25 0
 EELAYER END
@@ -1617,7 +1616,7 @@ U 1 1 5547C2A7
 P 9000 2000
 F 0 "J204" H 8900 2450 60  0000 C CNN
 F 1 "USB_A_TH" H 8950 2000 60  0000 C CNN
-F 2 "" H 9600 2500 60  0000 C CNN
+F 2 "tm-kicad-lib:USB-A" H 9600 2500 60  0001 C CNN
 F 3 "" H 9600 2500 60  0000 C CNN
 	1    9000 2000
 	-1   0    0    -1  
