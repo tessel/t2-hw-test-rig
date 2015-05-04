@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:t2-hw-test-rig-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -1523,17 +1523,6 @@ $EndComp
 Wire Wire Line
 	3650 3100 3650 3200
 $Comp
-L USB_A J204
-U 1 1 55427432
-P 9000 2000
-F 0 "J204" H 8900 2450 60  0000 C CNN
-F 1 "USB_A" H 9000 2000 60  0000 C CNN
-F 2 "" H 9600 2500 60  0000 C CNN
-F 3 "" H 9600 2500 60  0000 C CNN
-	1    9000 2000
-	-1   0    0    -1  
-$EndComp
-$Comp
 L GND #PWR054
 U 1 1 554278A0
 P 8300 3700
@@ -1622,4 +1611,15 @@ Text GLabel 8200 1500 0    60   Input ~ 0
 UUT_VINUSB
 Wire Wire Line
 	8300 1500 8200 1500
+$Comp
+L USB_A_TH J204
+U 1 1 5547C2A7
+P 9000 2000
+F 0 "J204" H 8900 2450 60  0000 C CNN
+F 1 "USB_A_TH" H 8950 2000 60  0000 C CNN
+F 2 "" H 9600 2500 60  0000 C CNN
+F 3 "" H 9600 2500 60  0000 C CNN
+	1    9000 2000
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
