@@ -552,4 +552,15 @@ F 3 "" H 5500 3100 60  0000 C CNN
 	1    5500 3000
 	1    0    0    1   
 $EndComp
+$Comp
+L HOLE H612
+U 1 1 554BDF1B
+P 8500 3650
+F 0 "H612" H 8500 3800 60  0000 C CNN
+F 1 "M2.5" H 8500 3500 60  0000 C CNN
+F 2 "tm-kicad-lib:MountingHole_2-5mm" H 8500 3650 60  0001 C CNN
+F 3 "" H 8500 3650 60  0000 C CNN
+	1    8500 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

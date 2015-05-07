@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/technical/github/t2-hw-test-rig/t2-hw-test-rig.sch)
-    (date "Thu 07 May 2015 10:56:26 AM PDT")
+    (date "Thu 07 May 2015 01:58:34 PM PDT")
     (tool "Eeschema 0.201505061231+5645~23~ubuntu14.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1197,7 +1197,13 @@
       (value 91166A190)
       (libsource (lib tm-kicad-lib) (part MECHANICAL))
       (sheetpath (names /MECHANICAL/) (tstamps /554A62B9/))
-      (tstamp 554A90A0)))
+      (tstamp 554A90A0))
+    (comp (ref H612)
+      (value M2.5)
+      (footprint tm-kicad-lib:MountingHole_2-5mm)
+      (libsource (lib tm-kicad-lib) (part HOLE))
+      (sheetpath (names /MECHANICAL/) (tstamps /554A62B9/))
+      (tstamp 554BDF1B)))
   (libparts
     (libpart (lib tm-kicad-lib) (part AAT4610)
       (docs http://www.skyworksinc.com/uploads/documents/201916A.pdf)
