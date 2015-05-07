@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201505051231+5642~23~ubuntu14.04.1-product   date = Tue 05 May 2015 07:03:21 PM PDT
+Cmp-Mod V01 Created by Cvpcb 0.201505061231+5645~23~ubuntu14.04.1-product   date = Wed 06 May 2015 02:31:25 PM PDT
 
 BeginCmp
 TimeStamp = /5530C201;
@@ -162,13 +162,6 @@ IdModule  = tm-kicad-lib:SMD-0402-C;
 EndCmp
 
 BeginCmp
-TimeStamp = /55375CFB/55418BF0;
-Reference = C402;
-ValeurCmp = 100nF;
-IdModule  = tm-kicad-lib:SMD-0402-C;
-EndCmp
-
-BeginCmp
 TimeStamp = /55375CFB/55376D2F;
 Reference = C403;
 ValeurCmp = 100nF;
@@ -197,20 +190,6 @@ IdModule  = tm-kicad-lib:SMD-0402-C;
 EndCmp
 
 BeginCmp
-TimeStamp = /55375CFB/554188A2;
-Reference = C407;
-ValeurCmp = 100nF;
-IdModule  = tm-kicad-lib:SMD-0402-C;
-EndCmp
-
-BeginCmp
-TimeStamp = /55375CFB/55418A3F;
-Reference = C408;
-ValeurCmp = 100nF;
-IdModule  = tm-kicad-lib:SMD-0402-C;
-EndCmp
-
-BeginCmp
 TimeStamp = /55375CFB/554188C0;
 Reference = C409;
 ValeurCmp = 100nF;
@@ -235,13 +214,6 @@ BeginCmp
 TimeStamp = /55375CFB/55418A6E;
 Reference = C412;
 ValeurCmp = 100pF;
-IdModule  = tm-kicad-lib:SMD-0402-C;
-EndCmp
-
-BeginCmp
-TimeStamp = /55375CFB/55430028;
-Reference = C413;
-ValeurCmp = 100nF;
 IdModule  = tm-kicad-lib:SMD-0402-C;
 EndCmp
 
@@ -351,43 +323,78 @@ IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5544DC66;
-Reference = H101;
+TimeStamp = /554A62B9/554A71CA;
+Reference = H601;
 ValeurCmp = M2.5;
 IdModule  = tm-kicad-lib:MountingHole_2-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /5544DD8A;
-Reference = H102;
+TimeStamp = /554A62B9/554A71D1;
+Reference = H602;
 ValeurCmp = M2.5;
 IdModule  = tm-kicad-lib:MountingHole_2-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /5544DDDA;
-Reference = H103;
+TimeStamp = /554A62B9/554A71D8;
+Reference = H603;
 ValeurCmp = M2.5;
 IdModule  = tm-kicad-lib:MountingHole_2-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /5544DE37;
-Reference = H104;
+TimeStamp = /554A62B9/554A71DF;
+Reference = H604;
 ValeurCmp = M2.5;
 IdModule  = tm-kicad-lib:MountingHole_2-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /5547EFD9;
-Reference = H105;
+TimeStamp = /554A62B9/554A7250;
+Reference = H605;
 ValeurCmp = M2.5;
 IdModule  = tm-kicad-lib:MountingHole_2-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /5547EFDF;
-Reference = H106;
+TimeStamp = /554A62B9/554A7257;
+Reference = H606;
+ValeurCmp = M2.5;
+IdModule  = tm-kicad-lib:MountingHole_2-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A7289;
+Reference = H607;
+ValeurCmp = M2.5;
+IdModule  = tm-kicad-lib:MountingHole_2-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A729E;
+Reference = H608;
+ValeurCmp = M2.5;
+IdModule  = tm-kicad-lib:MountingHole_2-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A72A5;
+Reference = H609;
+ValeurCmp = M2.5;
+IdModule  = tm-kicad-lib:MountingHole_2-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A72AC;
+Reference = H610;
+ValeurCmp = M2.5;
+IdModule  = tm-kicad-lib:MountingHole_2-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A72B3;
+Reference = H611;
 ValeurCmp = M2.5;
 IdModule  = tm-kicad-lib:MountingHole_2-5mm;
 EndCmp
@@ -477,34 +484,6 @@ IdModule  = tm-kicad-lib:SMD-0603-R;
 EndCmp
 
 BeginCmp
-TimeStamp = /55375CFB/5542AC44;
-Reference = L402;
-ValeurCmp = 10uH;
-IdModule  = tm-kicad-lib:SMD-0603-R;
-EndCmp
-
-BeginCmp
-TimeStamp = /55375CFB/5542AA48;
-Reference = L403;
-ValeurCmp = 10uH;
-IdModule  = tm-kicad-lib:SMD-0603-R;
-EndCmp
-
-BeginCmp
-TimeStamp = /55375CFB/5542AB5E;
-Reference = L404;
-ValeurCmp = 10uH;
-IdModule  = tm-kicad-lib:SMD-0603-R;
-EndCmp
-
-BeginCmp
-TimeStamp = /55375CFB/55430069;
-Reference = L405;
-ValeurCmp = 10uH;
-IdModule  = tm-kicad-lib:SMD-0603-R;
-EndCmp
-
-BeginCmp
 TimeStamp = /55403272/5540BFAA;
 Reference = L501;
 ValeurCmp = 10uH;
@@ -512,142 +491,233 @@ IdModule  = tm-kicad-lib:SMD-0603-R;
 EndCmp
 
 BeginCmp
-TimeStamp = /5544F596;
-Reference = MP101;
+TimeStamp = /554A62B9/554A71E6;
+Reference = MP601;
 ValeurCmp = 98952A202;
 IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /5544F89A;
-Reference = MP102;
-ValeurCmp = 98952A209;
+TimeStamp = /554A62B9/554A71ED;
+Reference = MP602;
+ValeurCmp = 98952A202;
 IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /55451A4E;
-Reference = MP103;
+TimeStamp = /554A62B9/554A721F;
+Reference = MP603;
 ValeurCmp = PLATE;
 IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /55451A92;
-Reference = MP104;
+TimeStamp = /554A62B9/554A7FB0;
+Reference = MP604;
+ValeurCmp = 91166A190;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A7227;
+Reference = MP605;
 ValeurCmp = 92290A060;
 IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /55451623;
-Reference = MP105;
+TimeStamp = /554A62B9/554A71F5;
+Reference = MP606;
 ValeurCmp = 98952A202;
 IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /55451629;
-Reference = MP106;
-ValeurCmp = 98952A209;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /55452EDF;
-Reference = MP107;
-ValeurCmp = 92290A060;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /554516D1;
-Reference = MP108;
+TimeStamp = /554A62B9/554A71FC;
+Reference = MP607;
 ValeurCmp = 98952A202;
 IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /554516D7;
-Reference = MP109;
-ValeurCmp = 98952A209;
+TimeStamp = /554A62B9/554A8301;
+Reference = MP608;
+ValeurCmp = 91166A190;
 IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /55452F63;
-Reference = MP110;
+TimeStamp = /554A62B9/554A723B;
+Reference = MP609;
 ValeurCmp = 92290A060;
 IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /554516DD;
-Reference = MP111;
+TimeStamp = /554A62B9/554A7203;
+Reference = MP610;
 ValeurCmp = 98952A202;
 IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /554516E3;
-Reference = MP112;
-ValeurCmp = 98952A209;
+TimeStamp = /554A62B9/554A720A;
+Reference = MP611;
+ValeurCmp = 98952A202;
 IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /55452F69;
-Reference = MP113;
+TimeStamp = /554A62B9/554A83AD;
+Reference = MP612;
+ValeurCmp = 91166A190;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A7242;
+Reference = MP613;
 ValeurCmp = 92290A060;
 IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /55451CE8;
-Reference = MP114;
+TimeStamp = /554A62B9/554A7211;
+Reference = MP614;
+ValeurCmp = 98952A202;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A7218;
+Reference = MP615;
+ValeurCmp = 98952A202;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A83B3;
+Reference = MP616;
+ValeurCmp = 91166A190;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A7249;
+Reference = MP617;
+ValeurCmp = 92290A060;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A727A;
+Reference = MP618;
+ValeurCmp = 90592A006;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A9093;
+Reference = MP619;
+ValeurCmp = 91166A190;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A725E;
+Reference = MP620;
+ValeurCmp = 98952A202;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A8499;
+Reference = MP621;
+ValeurCmp = 91166A190;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A726C;
+Reference = MP622;
+ValeurCmp = 92290A060;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A7282;
+Reference = MP623;
+ValeurCmp = 90592A006;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A909A;
+Reference = MP624;
+ValeurCmp = 91166A190;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A7265;
+Reference = MP625;
+ValeurCmp = 98952A202;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A849F;
+Reference = MP626;
+ValeurCmp = 91166A190;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A7273;
+Reference = MP627;
+ValeurCmp = 92290A060;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A72BB;
+Reference = MP628;
+ValeurCmp = 90592A006;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A90A0;
+Reference = MP629;
+ValeurCmp = 91166A190;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A7290;
+Reference = MP630;
+ValeurCmp = 98952A202;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A84A5;
+Reference = MP631;
+ValeurCmp = 91166A190;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A7297;
+Reference = MP632;
+ValeurCmp = 92290A060;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A62B9/554A722F;
+Reference = MP633;
 ValeurCmp = 201B;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /5547F398;
-Reference = MP115;
-ValeurCmp = 98952A209;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /5547F44C;
-Reference = MP116;
-ValeurCmp = 92290A060;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /5547F5EC;
-Reference = MP117;
-ValeurCmp = 90592A006;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /5547F39E;
-Reference = MP118;
-ValeurCmp = 98952A209;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /5547F452;
-Reference = MP119;
-ValeurCmp = 92290A060;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /5547F832;
-Reference = MP120;
-ValeurCmp = 90592A006;
 IdModule  = ;
 EndCmp
 
@@ -725,6 +795,20 @@ BeginCmp
 TimeStamp = /55375CFB/553778A0;
 Reference = Q404;
 ValeurCmp = CJ2302;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = /55375CFB/554AAF21;
+Reference = Q405;
+ValeurCmp = CJ2302 DNP;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = /55375CFB/554AAF93;
+Reference = Q406;
+ValeurCmp = CJ2302 DNP;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
