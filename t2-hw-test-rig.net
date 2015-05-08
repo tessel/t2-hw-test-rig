@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/technical/github/t2-hw-test-rig/t2-hw-test-rig.sch)
-    (date "Fri 08 May 2015 01:17:29 PM PDT")
+    (date "Fri 08 May 2015 03:22:17 PM PDT")
     (tool "Eeschema 0.201505071723+5645~23~ubuntu14.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1203,62 +1203,8 @@
       (footprint tm-kicad-lib:MountingHole_2-5mm)
       (libsource (lib tm-kicad-lib) (part HOLE))
       (sheetpath (names /MECHANICAL/) (tstamps /554A62B9/))
-      (tstamp 554BDF1B))
-    (comp (ref H613)
-      (value M2.5)
-      (footprint tm-kicad-lib:MountingHole_2-5mm)
-      (libsource (lib tm-kicad-lib) (part HOLE))
-      (sheetpath (names /MECHANICAL/) (tstamps /554A62B9/))
-      (tstamp 554BFB2E)))
+      (tstamp 554BDF1B)))
   (libparts
-    (libpart (lib tm-kicad-lib) (part USB_A_TH)
-      (fields
-        (field (name Reference) J)
-        (field (name Value) USB_A_TH))
-      (pins
-        (pin (num 1) (name 5V) (type power_out))
-        (pin (num 2) (name D-) (type BiDi))
-        (pin (num 3) (name D+) (type BiDi))
-        (pin (num 4) (name GND) (type power_out))
-        (pin (num 5) (name SHIELD) (type passive))
-        (pin (num 6) (name SHIELD) (type passive))))
-    (libpart (lib tm-kicad-lib) (part XC6206)
-      (description "LDO 200mA")
-      (docs http://www.seeedstudio.com/wiki/images/7/71/1300260P1.pdf)
-      (footprints
-        (fp SOT-23)
-        (fp SOT23))
-      (fields
-        (field (name Reference) U)
-        (field (name Value) XC6206))
-      (pins
-        (pin (num 1) (name GND) (type power_in))
-        (pin (num 2) (name VOUT) (type power_out))
-        (pin (num 3) (name VIN) (type power_in))))
-    (libpart (lib tm-kicad-lib) (part nMOS)
-      (fields
-        (field (name Reference) Q)
-        (field (name Value) nMOS))
-      (pins
-        (pin (num 1) (name G) (type input))
-        (pin (num 2) (name S) (type passive))
-        (pin (num 3) (name D) (type passive))))
-    (libpart (lib tm-kicad-lib) (part PRTR5V0U2X,215)
-      (fields
-        (field (name Reference) D)
-        (field (name Value) PRTR5V0U2X,215))
-      (pins
-        (pin (num 1) (name ~) (type input))
-        (pin (num 2) (name ~) (type input))
-        (pin (num 3) (name ~) (type input))
-        (pin (num 4) (name ~) (type input))))
-    (libpart (lib tm-kicad-lib) (part CRYSTAL)
-      (fields
-        (field (name Reference) X)
-        (field (name Value) CRYSTAL))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
     (libpart (lib conn) (part CONN_01X02)
       (footprints
         (fp Pin_Header_Straight_1X02)
@@ -1336,6 +1282,76 @@
         (pin (num 1) (name G) (type input))
         (pin (num 2) (name S) (type BiDi))
         (pin (num 3) (name D) (type BiDi))))
+    (libpart (lib device) (part JUMPER)
+      (fields
+        (field (name Reference) JP)
+        (field (name Value) JUMPER))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib device) (part LED)
+      (footprints
+        (fp LED-3MM)
+        (fp LED-5MM)
+        (fp LED-10MM)
+        (fp LED-0603)
+        (fp LED-0805)
+        (fp LED-1206)
+        (fp LEDV))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED))
+      (pins
+        (pin (num 1) (name K) (type passive))
+        (pin (num 2) (name A) (type passive))))
+    (libpart (lib device) (part R_PACK4)
+      (description "4 resistors Pack")
+      (fields
+        (field (name Reference) RP)
+        (field (name Value) R_PACK4))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))
+        (pin (num 5) (name R4) (type passive))
+        (pin (num 6) (name R3) (type passive))
+        (pin (num 7) (name R2) (type passive))
+        (pin (num 8) (name R1) (type passive))))
+    (libpart (lib device) (part Switch_DPST)
+      (description "Double Pole Single Throw (DPST) Switch")
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) Switch_DPST))
+      (pins
+        (pin (num 1) (name 1) (type input))
+        (pin (num 2) (name 2) (type input))
+        (pin (num 3) (name 3) (type input))
+        (pin (num 4) (name 4) (type input))))
+    (libpart (lib conn) (part BARREL_JACK)
+      (description "DC Barrel Jack")
+      (fields
+        (field (name Reference) CON)
+        (field (name Value) BARREL_JACK))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))))
+    (libpart (lib tm-kicad-lib) (part AAT4610)
+      (docs http://www.skyworksinc.com/uploads/documents/201916A.pdf)
+      (footprints
+        (fp SOT23-5)
+        (fp SOT-23-5)
+        (fp SOT-235))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) AAT4610))
+      (pins
+        (pin (num 1) (name OUT) (type power_out))
+        (pin (num 2) (name GND) (type power_in))
+        (pin (num 3) (name SET) (type input))
+        (pin (num 4) (name ~ON) (type input))
+        (pin (num 5) (name IN) (type power_in))))
     (libpart (lib tm-kicad-lib) (part ATSAMD21J18A-MUT)
       (description "SAMD21J18A-MUT, QFN64, 256k Flash, 32k RAM, 48MHz, CortexM0+")
       (docs http://www.atmel.com/Images/Atmel-42181-SAM-D21_Datasheet.pdf)
@@ -1411,61 +1427,17 @@
         (pin (num 63) (name PB02) (type BiDi))
         (pin (num 64) (name PB03) (type BiDi))
         (pin (num 65) (name PAD) (type BiDi))))
-    (libpart (lib device) (part JUMPER)
+    (libpart (lib tm-kicad-lib) (part CRYSTAL)
       (fields
-        (field (name Reference) JP)
-        (field (name Value) JUMPER))
+        (field (name Reference) X)
+        (field (name Value) CRYSTAL))
       (pins
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))))
-    (libpart (lib device) (part LED)
-      (footprints
-        (fp LED-3MM)
-        (fp LED-5MM)
-        (fp LED-10MM)
-        (fp LED-0603)
-        (fp LED-0805)
-        (fp LED-1206)
-        (fp LEDV))
+    (libpart (lib tm-kicad-lib) (part HOLE)
       (fields
-        (field (name Reference) D)
-        (field (name Value) LED))
-      (pins
-        (pin (num 1) (name K) (type passive))
-        (pin (num 2) (name A) (type passive))))
-    (libpart (lib device) (part R_PACK4)
-      (description "4 resistors Pack")
-      (fields
-        (field (name Reference) RP)
-        (field (name Value) R_PACK4))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))
-        (pin (num 3) (name P3) (type passive))
-        (pin (num 4) (name P4) (type passive))
-        (pin (num 5) (name R4) (type passive))
-        (pin (num 6) (name R3) (type passive))
-        (pin (num 7) (name R2) (type passive))
-        (pin (num 8) (name R1) (type passive))))
-    (libpart (lib device) (part Switch_DPST)
-      (description "Double Pole Single Throw (DPST) Switch")
-      (fields
-        (field (name Reference) SW)
-        (field (name Value) Switch_DPST))
-      (pins
-        (pin (num 1) (name 1) (type input))
-        (pin (num 2) (name 2) (type input))
-        (pin (num 3) (name 3) (type input))
-        (pin (num 4) (name 4) (type input))))
-    (libpart (lib conn) (part BARREL_JACK)
-      (description "DC Barrel Jack")
-      (fields
-        (field (name Reference) CON)
-        (field (name Value) BARREL_JACK))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))
-        (pin (num 3) (name ~) (type passive))))
+        (field (name Reference) H)
+        (field (name Value) HOLE)))
     (libpart (lib tm-kicad-lib) (part MAX6102)
       (description "2.5V REFERENCE")
       (docs http://datasheets.maximintegrated.com/en/ds/MAX6100-MAX6107.pdf)
@@ -1518,6 +1490,15 @@
         (pin (num 9) (name Shell) (type input))
         (pin (num 10) (name Shell) (type input))
         (pin (num 11) (name Shell) (type input))))
+    (libpart (lib tm-kicad-lib) (part PRTR5V0U2X,215)
+      (fields
+        (field (name Reference) D)
+        (field (name Value) PRTR5V0U2X,215))
+      (pins
+        (pin (num 1) (name ~) (type input))
+        (pin (num 2) (name ~) (type input))
+        (pin (num 3) (name ~) (type input))
+        (pin (num 4) (name ~) (type input))))
     (libpart (lib tm-kicad-lib) (part TM_C)
       (footprints
         (fp C?)
@@ -1577,25 +1558,38 @@
         (pin (num 12) (name ~) (type input))
         (pin (num 13) (name ~) (type input))
         (pin (num 14) (name ~) (type output))))
-    (libpart (lib tm-kicad-lib) (part AAT4610)
-      (docs http://www.skyworksinc.com/uploads/documents/201916A.pdf)
+    (libpart (lib tm-kicad-lib) (part USB_A_TH)
+      (fields
+        (field (name Reference) J)
+        (field (name Value) USB_A_TH))
+      (pins
+        (pin (num 1) (name 5V) (type power_out))
+        (pin (num 2) (name D-) (type BiDi))
+        (pin (num 3) (name D+) (type BiDi))
+        (pin (num 4) (name GND) (type power_out))
+        (pin (num 5) (name SHIELD) (type passive))
+        (pin (num 6) (name SHIELD) (type passive))))
+    (libpart (lib tm-kicad-lib) (part XC6206)
+      (description "LDO 200mA")
+      (docs http://www.seeedstudio.com/wiki/images/7/71/1300260P1.pdf)
       (footprints
-        (fp SOT23-5)
-        (fp SOT-23-5)
-        (fp SOT-235))
+        (fp SOT-23)
+        (fp SOT23))
       (fields
         (field (name Reference) U)
-        (field (name Value) AAT4610))
+        (field (name Value) XC6206))
       (pins
-        (pin (num 1) (name OUT) (type power_out))
-        (pin (num 2) (name GND) (type power_in))
-        (pin (num 3) (name SET) (type input))
-        (pin (num 4) (name ~ON) (type input))
-        (pin (num 5) (name IN) (type power_in))))
-    (libpart (lib tm-kicad-lib) (part HOLE)
+        (pin (num 1) (name GND) (type power_in))
+        (pin (num 2) (name VOUT) (type power_out))
+        (pin (num 3) (name VIN) (type power_in))))
+    (libpart (lib tm-kicad-lib) (part nMOS)
       (fields
-        (field (name Reference) H)
-        (field (name Value) HOLE))))
+        (field (name Reference) Q)
+        (field (name Value) nMOS))
+      (pins
+        (pin (num 1) (name G) (type input))
+        (pin (num 2) (name S) (type passive))
+        (pin (num 3) (name D) (type passive)))))
   (libraries
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
