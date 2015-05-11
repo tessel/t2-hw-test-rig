@@ -1,5 +1,5 @@
 M48
-;DRILL file {KiCad 0.201505101954+5649~23~ubuntu14.04.1-product} date Mon 11 May 2015 11:57:11 AM PDT
+;DRILL file {KiCad 0.201505101954+5649~23~ubuntu14.04.1-product} date Mon 11 May 2015 12:27:15 PM PDT
 ;FORMAT={-:-/ absolute / inch / decimal}
 FMAT,2
 INCH,TZ
@@ -604,7 +604,7 @@ X2.8Y-3.6
 X2.8Y-5.9
 X3.2Y-2.7
 X3.205Y-5.18
-X4.8Y-2.6
+X4.775Y-2.6
 X5.15Y-5.9
 X5.3Y-3.35
 X5.3Y-3.6
