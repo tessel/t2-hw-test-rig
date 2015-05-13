@@ -23,7 +23,7 @@ launchctl setenv KISYS3DMOD "/Library/Application Support/kicad/packages3d"
 
 ## Mechanical Model
 
-Our physical model is shared on [OnShape](http://onshape.com), a cloud-based 3D CAD system that is free for public projects. Anyone with an account can view it by searching for "testalator" under public models.
+Our [physical CAD model](https://cad.onshape.com/documents/50a5c011c1d44d7ca5c90fbf) is available on [OnShape](http://onshape.com), a cloud-based 3D CAD system that is free for public projects. It supports export in a variety of formats to other 3D CAD tools.
 
 ## License
 
