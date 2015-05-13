@@ -21,6 +21,10 @@ git submodule update --init
 launchctl setenv KISYS3DMOD "/Library/Application Support/kicad/packages3d"
 ```
 
+## Mechanical Model
+
+Our [physical CAD model](https://cad.onshape.com/documents/50a5c011c1d44d7ca5c90fbf) is available on [OnShape](http://onshape.com), a cloud-based 3D CAD system that is free for public projects. It supports export in a variety of formats to other 3D CAD tools.
+
 ## License
 
 CC-BY-SA and/or Solderpad at your option except where otherwise noted.
