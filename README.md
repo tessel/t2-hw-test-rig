@@ -21,6 +21,10 @@ git submodule update --init
 launchctl setenv KISYS3DMOD "/Library/Application Support/kicad/packages3d"
 ```
 
+## Mechanical Model
+
+Our physical model is shared on [OnShape](http://onshape.com), a cloud-based 3D CAD system that is free for public projects. Anyone with an account can view it by searching for "testalator" under public models.
+
 ## License
 
 CC-BY-SA and/or Solderpad at your option except where otherwise noted.
