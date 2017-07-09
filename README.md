@@ -1,5 +1,7 @@
 # t2-hw-test-rig
 
+[![Code of Conduct](https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-blue.svg?style=flat)](https://github.com/tessel/project/blob/master/CONDUCT.md)
+
 KiCAD design files for test rigs for Technical Machine's Tessel 2
 
 To download [TM's KiCAD library](https://github.com/technicalmachine/tm-kicad-library), containing all the schematic symbols and footprints, run this command:
